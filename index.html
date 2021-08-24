@@ -122,6 +122,16 @@
             margin: 0;
             height: 15px;
         }
+        .quote::before{
+            position: absolute;
+            right: 50px;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid #eee;
+        }
     </style>
 </head>
 
@@ -138,7 +148,10 @@
     </div>
 
     <div id="objective">
-        <p>
+        <p class="quote" style="border-radius: 10px;
+    border: 1px solid #cccccc91;
+    padding: 10px;
+    margin-top: 20px;">
             I'm a developer, love algorithms, like simplicity, honesty and solve challenging problems (way to learn
             faster) The favorite language is PHP and shell script
         </p>
